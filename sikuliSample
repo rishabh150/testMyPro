@@ -1,0 +1,19 @@
+package returntwovariables;
+
+import java.io.IOException;
+
+import org.sikuli.script.FindFailed;
+import org.sikuli.script.Screen;
+
+public class SikuliTest {
+
+	public static void main(String[] args) throws IOException, FindFailed {
+		// TODO Auto-generated method stub
+
+		Runtime.getRuntime().exec("calc.exe");
+		Screen s=new Screen();
+		s.click("eight.PNG");
+		
+	}
+
+}
